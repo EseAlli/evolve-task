@@ -1,4 +1,6 @@
 {
+  "entry": "src/index.js",
+  "main": "build/index.js",
   "name": "transact",
   "version": "0.1.0",
   "private": true,
