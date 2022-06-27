@@ -4,7 +4,7 @@ import { useTransactionContext } from "../context/TransactionContext";
 export default function ActivateMandate() {
   // input data
   const [data, setData] = useState({});
-  const [success, setSuccess] = useState(true);
+  const [success, setSuccess] = useState(false);
 
   const { activateMandate, debitMandateFields } = useTransactionContext();
   const [fields] = debitMandateFields;
